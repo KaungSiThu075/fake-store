@@ -1,0 +1,14 @@
+.loading {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  animation: l1 1s linear infinite alternate;
+}
+.loading:before {
+  content: "Loading.....";
+}
+@keyframes l1 {
+  to {
+    opacity: 0;
+  }
+}
